@@ -1,0 +1,226 @@
+    /***********************************
+GENERAL
+************************************/
+    
+    #PageMiddle {
+        height: 100%;
+        /*background-color: rgba(65, 105, 225, 0.2);*/
+        max-width: 940px;
+        margin-top: 0;
+        margin-bottom: 70px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #wrapper {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+    
+    a {
+        text-decoration: none;
+        /* This is for the anchor tags, to remove the underline of all links */
+    }
+    /*This makes the site image responsive by filling the container. If the container shrinks, the image resize automatically */
+    
+    img {
+        max-width: 100%;
+    }
+    
+    h3 {
+        margin: 0 0 1em 0;
+    }
+    /***********************************
+HEADING
+************************************/
+    /*Site Logo text alignment */
+    
+    #logo {
+        text-align: center;
+        margin: 0;
+    }
+    
+    h1 {
+        font-family: 'Changa One', sans-serif;
+        margin: 15px 0;
+        font-size: 1.75em;
+        font-weight: normal;
+        line-height: 0.8em;
+    }
+    
+    h2 {
+        font-family: 'Open Sans', cursive;
+        font-size: 0.75em;
+        margin: -5px 0 0;
+        font-weight: normal;
+    }
+    /***********************************
+NAVIGATION
+************************************/
+    
+    nav {
+        text-align: center;
+        padding: 5px 0;
+        margin: 20px 0 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0 10px;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline-block;
+        /*This will make the listed items to be on a single horizontal line */
+    }
+    
+    nav a {
+        font-weight: 800;
+        padding: 15px 10px;
+    }
+    /***********************************
+FOOTER
+************************************/
+    
+    footer {
+        font-size: 0.75em;
+        text-align: center;
+        clear: both;
+        /*This will remove the footer icon from being affected by the float attribute */
+        padding-top: 50px;
+        color: #ccc;
+    }
+    
+    .social-icon {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+    /***********************************
+PAGE PORTFOLIO
+************************************/
+    
+    #gallery {
+        /*The hash # is called an id selector. */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        /* list-style:none will remove the bullet point from an unordered list */
+    }
+    /*Explanation: Float will make the images to stay side by side. Width of 45% will make each image takes only 45%
+of the total width of the container/browser no matter how you resize the browser. Calculation: Each image width is 45%,
+2 images in a row gives 90%. The remaining 10% is shared by the "margin" attribute of 2.5% This means each image has 2.5% margin top,
+right, bottom and left. For a row, first image has 2.5% + 45% + 2.5% = 50%
+Second image on same line has 2.5% + 45% + 2.5% = 50% The total gives 100% width which is already set in the img attribute above.*/
+    
+    #gallery li {
+        float: left;
+        width: 45%;
+        margin: 2.5%;
+        color: #bdc3c7;
+    }
+    
+    #gallery li a p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.00em;
+        color: #bdc3c7;
+        background-color: #f5f5f5;
+    }
+    /*This makes the image to have shaped edges.*/
+    
+    .img-cicle {
+        border-radius: 10%;
+    }
+    /***********************************
+PAGE: ABOUT
+************************************/
+    
+    .profile-photo {
+        display: block;
+        max-width: 150px;
+        margin: 0 auto 30px;
+        border-radius: 100%;
+    }
+    /***********************************
+PAGE: CONTACT
+************************************/
+    
+    .contact-info {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.9em;
+    }
+    
+    .contact-info a {
+        display: block;
+        min-height: 20px;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        padding: 0 0 0 30px;
+        margin: 0 0 10px;
+    }
+    
+    .contact-info li.phone a {
+        background-image: url(../img/phone.png);
+    }
+    
+    .contact-info li.mail a {
+        background-image: url(../img/mail.png);
+    }
+    
+    .contact-info li.twitter a {
+        background-image: url(../img/twitter.png);
+    }
+    /***********************************
+COLOR
+************************************/
+    
+    header {
+        background: #FF69B4;
+        border-color: #599a68;
+    }
+    /*Site Link text color */
+    
+    a {
+        color: #6ab47b;
+    }
+    /*Site header text color */
+    
+    h1,
+    h2 {
+        color: #fff;
+    }
+    /*Site navigation background color */
+    
+    nav {
+        background: #e769ff;
+        /*box-shadow: 0px 0px 5px 0px #FF69B4;
+  margin: 0;
+  padding: 0; */
+    }
+    /*Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example. */
+    
+    nav a,
+    nav a:visited {
+        color: #fff;
+    }
+    /* Site navigation selection and mouse hover color behavior */
+    
+    nav a.selected,
+    nav a:hover {
+        color: #32673f;
+    }
+    /*Site body*/
+    
+    body {
+        background-color: #fff;
+        color: #999;
+    }

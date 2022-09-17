@@ -1,0 +1,1110 @@
+body {
+    margin: 0px;
+    /*font-family: Tahoma, Geneva, sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: url(../images/signup-bkg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+#PageTop {
+    background: #1e354c;
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 9999;
+}
+
+img[src*="logo"] {
+    float: left;
+    max-width: 10.3191%;
+    height: 45px;
+    margin-right: 0.4255%;
+    margin-left: 3%;
+    padding-right: 0.2127%;
+}
+
+#PageTop>#menu1 {
+    height: 45px;
+    padding: 0.2127%;
+    text-decoration: none;
+}
+
+#PageTop>#menu1>a,
+#notify {
+    float: right;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+
+#header {
+    margin: 0 0 20px 0;
+    padding-bottom: 20px;
+}
+
+#signupform>div {
+    margin-top: 12px;
+}
+
+#signupform>input,
+select {
+    width: 50%;
+    padding: 3px;
+    background: #F3F9DD;
+}
+
+#signupbtn {
+    font-size: 18px;
+    padding: 12px;
+}
+
+#terms {
+    border: #CCC 1px solid;
+    background: #F5F5F5;
+    padding: 12px;
+}
+
+#loginform {
+    margin-top: 24px;
+}
+
+#loginform>div {
+    margin-top: 12px;
+}
+
+#loginform>input {
+    width: 50%;
+    padding: 3px;
+    background: #F3F9DD;
+}
+
+#loginbtn {
+    font-size: 15px;
+    padding: 10px;
+}
+
+#forgotpassform {
+    margin-top: 24px;
+}
+
+#forgotpassform>div {
+    margin-top: 12px;
+}
+
+#forgotpassform>input {
+    width: 250px;
+    padding: 3px;
+    background: #F3F9DD;
+}
+
+#forgotpassbtn {
+    font-size: 15px;
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-size: 15px;
+    color: gray;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 15px;
+    color: gray;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 15px;
+    color: gray;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 15px;
+    color: gray;
+}
+
+#searchWrap {
+    position: relative;
+}
+
+#searchquery,
+#searchprovider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 5px;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-bottom: 5px;
+}
+
+#profile_pic_box img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: block;
+    height: auto;
+}
+
+
+/* Styling for provider profile picture emblem starts here */
+
+#profile_pic_box,
+#profile_page_pic_box,
+#pix-sticky-wrapper {
+    position: relative;
+    z-index: 9000;
+}
+
+#profileimage {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+
+/* Ends here */
+
+
+/* This is the styles for the profile page picture upload --- Start Here. */
+
+#profile_page_pic_box>img {
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+#profile_page_pic_box>a {
+    display: none;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+    background: #D8F08E;
+    border: #81A332 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #60750B;
+}
+
+#profile_page_pic_box>form {
+    display: none;
+    position: absolute;
+    z-index: 3000;
+    padding: 8px;
+    opacity: .8;
+    background: #F0FEC2;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 18%;
+}
+
+#profile_page_pic_box:hover a {
+    display: block;
+}
+
+
+/* Ends Here. */
+
+#profileName {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#homeFeed>#parentContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#PageMiddle>#parentContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#parentContainer {
+    position: relative;
+}
+
+.deleteimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    opacity: .3;
+}
+
+.deleteimg:hover {
+    background-color: lightsteelblue;
+    opacity: .8;
+}
+
+#homeFeed1>#parentContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#hide {
+    border: antiquewhite;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0px gray;
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+#parentContainer>a {
+    text-decoration: none;
+}
+
+div#PageMiddle>#parentContainer img[src*="user"],
+div#homeFeed>#parentContainer img[src*="user"] {
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#homeFeed1>#parentContainer img[src*="user"] {
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#ProfileName {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+textarea {
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    overflow: auto;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
+/* Style For HomePage Textarea Placeholder alignment */
+
+#message::-webkit-input-placeholder {
+    padding-top: 25px;
+}
+
+#message::-moz-placeholder {
+    line-height: 80px;
+}
+
+#message:-moz-placeholder {
+    line-height: 80px;
+}
+
+#message:-ms-input-placeholder {
+    padding-top: 25px;
+}
+
+
+/* Ends Here*/
+
+
+/* Style for HomePage Mobile Number entry Placeholder alignment */
+
+#mobile::-webkit-input-placeholder {
+    padding-top: 8px;
+}
+
+#mobile::-moz-placeholder {
+    line-height: 50px;
+}
+
+#mobile:-moz-placeholder {
+    line-height: 50px;
+}
+
+#mobile:-ms-input-placeholder {
+    padding-top: 8px;
+}
+
+
+/* Ends Here*/
+
+
+/* Style for HomePage Subscription Audio Description entry Placeholder alignment */
+
+#sub_description::-webkit-input-placeholder {
+    padding-top: 8px;
+}
+
+#sub_description::-moz-placeholder {
+    line-height: 50px;
+}
+
+#sub_description:-moz-placeholder {
+    line-height: 50px;
+}
+
+#sub_description:-ms-input-placeholder {
+    padding-top: 8px;
+}
+
+
+/* Ends Here*/
+
+#pageMiddleForm>#audio_upload {
+    width: 100%;
+}
+
+#userProfile .MobileIcon {
+    background-image: url(../images/phone.png);
+    display: block;
+    background-repeat: no-repeat;
+    padding: 0 0 5px 1px;
+    background-size: 30px 30px;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #0066ff;
+}
+
+a:visited {
+    color: #0066ff;
+}
+
+a:hover {
+    color: #0066ff;
+}
+
+a:active {
+    color: #0066ff;
+}
+
+#parentContainer img[src*="posted-white"] {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.posted {
+    position: absolute;
+    bottom: 3%;
+    left: 17%;
+    display: none;
+}
+
+.content_type {
+    position: absolute;
+    bottom: 3%;
+    left: 53%;
+    display: none;
+}
+
+#parentContainer img[src*="chat"] {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 92%;
+}
+
+.comment {
+    position: absolute;
+    bottom: 3%;
+    left: 78%;
+    display: none;
+}
+
+#childdiv1 {
+    height: auto;
+    width: 100%;
+    background-color: #ccd;
+    border-bottom: 1px solid #cce6ff;
+    border-right: 1px solid #cce6ff;
+    border-left: 1px solid #cce6ff;
+    /*box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+#followerList,
+#subscriptionList {
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#followerList button,
+#subscriptionList button {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+#followUsernameBtn {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+#fuserName {
+    font-weight: 800;
+}
+
+
+/* Style for deleting providers registration request */
+
+.remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Ends Here */
+
+
+/* This is the style for the follow page links */
+
+#nav-follow {
+    margin: 5px 0 0;
+    padding: 1px 0;
+    background-color: lightgray;
+}
+
+#nav-follow ul {
+    list-style: none;
+    text-align: center;
+}
+
+#nav-follow li {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+#nav-follow a {
+    font-weight: 800;
+    padding: 14px 16px;
+}
+
+#nav-follow a,
+#nav-follow a:visited {
+    color: #fff;
+}
+
+#nav-follow a.selected {
+    background-color: #0bb5ff;
+}
+
+#nav-follow a:hover {
+    background-color: lightsteelblue;
+}
+
+
+/* It ends */
+
+#PageMiddle>#followerList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#PageMiddle>#subscriptionList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#PageMiddle>#providerPage>#subscriptionList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#followerList a,
+#subscriptionList a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    border-width: 1;
+}
+
+.trow:hover {
+    background-color: #f5f5f5
+}
+
+.trow {
+    border-bottom: 1px solid #ddd;
+}
+
+.trow:last-child {
+    border-bottom: none;
+}
+
+input[type=button] {
+    background-color: lightsteelblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: #66b3ff;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #004080;
+}
+
+input[type=button]:hover {
+    background-color: gray;
+}
+
+input[type=button]:disabled {
+    background-color: gray;
+}
+
+button {
+    background-color: #0066ff;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+button:hover {
+    font-size: 15px;
+}
+
+
+/* Style for the profile page change password - Start Here */
+
+#PageMiddle>#changepassword {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#pform {
+    position: relative;
+}
+
+#current {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#newpwd {
+    position: absolute;
+    top: 0.5;
+    right: 0;
+}
+
+#enternew,
+#enterconfirm {
+    display: inline-block;
+}
+
+#confirmpwd {
+    position: absolute;
+    top: 1.5;
+    right: 0;
+}
+
+#passsubmit {
+    position: absolute;
+    bottom: 0;
+    right: 55%;
+}
+
+
+/* Ends Here*/
+
+
+/* This is the styles for CDR page Datepicker */
+
+#date-picker,
+#cdr-search {
+    display: inline-block;
+}
+
+.ui-datepicker {
+    background: #ccc;
+}
+
+div.ui-datepicker {
+    font-size: 16px;
+}
+
+.ui-datepicker th {
+    color: #3e3e3e;
+}
+
+.ui-datepicker th.ui-datepicker-week-end {
+    color: crimson;
+}
+
+.ui-datepicker-today {
+    background: crimson !important;
+}
+
+.ui-datepicker-current-day {
+    background: #999 !important;
+}
+
+#call-search {
+    position: relative;
+}
+
+#filter {
+    position: absolute;
+    right: 0;
+}
+
+#call_status {
+    position: absolute;
+    right: 20%;
+}
+
+#to_date {
+    position: absolute;
+    right: 60%;
+}
+
+
+/* CDR date picker styling ends here */
+
+
+/* Pagination Control styling Starts Here */
+
+#paginationctrls {
+    font-weight: 800;
+    font-size: 1.2em;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+#paginationctrls a {
+    color: white;
+}
+
+
+/* Pagination Control styling Ends Here */
+
+audio {
+    width: 100%;
+    margin-top: 1px;
+}
+
+
+/* Styling for provider search page starts here */
+
+#cont_type,
+#content_type {
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    font-size: 30px;
+    color: white;
+    opacity: .3;
+}
+
+
+/* Ends here */
+
+
+/* Styling for Like/Unlike button */
+
+#lowerbtm {
+    position: relative;
+}
+
+span[id*="likecnt"] {
+    position: absolute;
+    left: 5%;
+}
+
+img[id*="likebtn"] {
+    position: absolute;
+    left: 0%;
+}
+
+img[id*="unlikebtn"] {
+    position: absolute;
+    left: 15%;
+}
+
+span[id*="unlikecnt"] {
+    position: absolute;
+    left: 20%;
+}
+
+
+/* Ends here */
+
+
+/* Styling for notification drop-down */
+
+#notify {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.notecontainer {
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    width: 320px;
+    right: 20%;
+}
+
+.notedisplay {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+
+#spanBase {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    width: 300px;
+}
+
+#notepage {
+    position: relative;
+}
+
+div.notepage img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+div#notedisplay>#notepage img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+.notification-user {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#notification-date {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.notification-message {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+#note_still {
+    margin-top: 3px;
+}
+
+
+/* Ends Here */
+
+
+/* Styling for pageRight provider display */
+
+#big-ads {
+    box-sizing: border-box;
+}
+
+#eachprovider {
+    position: relative;
+    height: 80px;
+}
+
+div#eachprovider img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+#providerName {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-weight: 800;
+}
+
+#content-type {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    opacity: .2;
+    font-size: 20px;
+}
+
+#nofsub {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    opacity: .5;
+}
+
+#nofbroadcast {
+    position: absolute;
+    top: 0;
+    right: 25%;
+    opacity: .5;
+}
+
+.providerclass {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#refresh {
+    box-sizing: border-box;
+}
+
+.viewall:hover,
+.refresh:hover {
+    text-decoration: underline;
+}
+
+
+/* Ends Here */
+
+.Website:hover {
+    text-decoration: underline;
+}
+
+.subscribe:hover {
+    text-decoration: underline;
+}
+
+
+/* Styling for following/followers display */
+
+div#followCnt {
+    position: relative;
+    min-height: 60px;
+}
+
+#followerscnt {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+#followingcnt {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.followerspan {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: gray;
+}
+
+.followingspan {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    color: gray;
+}
+
+#followBtn {
+    position: absolute;
+    top: 60%;
+    right: 35%;
+}
+
+#followingcnt:hover,
+#followerscnt:hover {
+    text-decoration: underline;
+}
+
+
+/* Ends Here */
+
+#comment-img {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #999 1px solid;
+}
+
+.commentDisplay {
+    height: 60px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    background-color: #CCE6E6;
+    position: relative;
+}
+
+#commentersid {
+    position: absolute;
+    border: #999 1px solid;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+
+#commentName {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    color: #004080;
+    font-weight: bold;
+    height: 30px;
+}
+
+#commentDate {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 10px;
+    /*color: #0066ff; */
+    color: gray;
+    height: 30px;
+    font-weight: bold;
+}
+
+#commentWords {
+    height: auto;
+    width: 100%;
+    margin-top: -4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: #CCE6E6;
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+#deleteCmt {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border-radius: 50%;
+}
+
+.load-comment,
+.load-comment2 {
+    background-color: #0bb5ff;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.load-comment:hover,
+.load-comment2:hover {
+    font-size: 15px;
+    font-weight: 800;
+}

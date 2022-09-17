@@ -1,0 +1,4734 @@
+    @media screen and (min-width: 280px) {
+        #PageLeft {
+            display: none;
+        }
+        .pageMiddleForm {
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        #loginformMiddle {
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .iconsignup {
+            padding-left: 30px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 20px;
+        }
+        #loginform a {
+            margin-left: 60px;
+        }
+        .loginstatus {
+            margin-left: 50px;
+        }
+        .signupstatus {
+            display: block;
+            margin-left: 45px;
+        }
+        .ccode {
+            width: 145px;
+        }
+        #checkbox_id {
+            margin-left: 30px;
+        }
+        #loginbtn {
+            margin-left: 70px;
+        }
+        #signupbtn {
+            font-size: 16px;
+            margin-left: 70px;
+        }
+        #facebookicon {
+          margin-left: 70px;
+        }
+        .b1,
+        .b2 {
+            display: none;
+        }
+        #nav-follow ul {
+            list-style: none;
+            margin-left: -40px;
+        }
+        #nav-follow li {
+            display: inline-block;
+            font-size: 14px;
+        }
+        #nav-follow a {
+            padding: 14px 16px;
+        }
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+            height: 80px;
+        }
+        #profile_page_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+            height: 80px;
+        }
+        #profile_pic_box {
+            position: relative;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 57.9%;
+            bottom: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        #profile_page_pic_box {
+            position: relative;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 58%;
+            bottom: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        #ProfileName {
+            left: 21.5%;
+        }
+        #subicon,
+        #prosubicon {
+            position: absolute;
+            left: 0.5%;
+        }
+        #aboutBlock {
+            margin-top: 10px;
+            margin-bottom: -25px;
+        }
+        #aboutNone {
+            margin-top: 0px;
+        }
+        #followCnt {
+            margin-top: 10px;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 81%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 92%;
+            display: inline;
+        }
+        #comments {
+            width: 85%;
+        }
+        #content_type {
+            font-size: 25px;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 21.5%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 30%;
+            display: inline;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 10%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 20%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 31%;
+        }
+        /* Ends here */
+        .fa-chart-pie {
+            display: none;
+        }
+        i[id*="broadcastbtn"] {
+            display: none;
+        }
+        #pr-copyright {
+            text-align: center;
+            color: white;
+        }
+        #refresh {
+            text-align: center;
+        }
+        #searchquery,
+        #searchprovider {
+            width: 91%;
+        }
+        #p-100,
+        #p-500,
+        #p-1000 {
+            text-align: center;
+        }
+        /* Styling for profile page */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .dropbtn {
+            font-size: 16px;
+            border: none;
+            margin-bottom: 1px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 20%;
+            background-color: #f9f9f9;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: left;
+            color: black;
+            padding: 10px 12px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        #thisdate {
+            width: 125px;
+        }
+        #entercurrent,
+        #enternew,
+        #enterconfirm {
+            font-size: 12px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 32%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 200px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 101px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 66%;
+        }
+        .notification-user {
+            left: 24%;
+        }
+        .notification-message {
+            left: 24%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 110px;
+            float: left;
+        }
+        #followers {
+            width: 110px;
+            float: left;
+        }
+        #recurrent {
+            width: 110px;
+            float: left;
+        }
+        #shared {
+            width: 110px;
+            float: left;
+        }
+        #thisdate {
+            width: 80px;
+        }
+        .gallery-slideshow {
+            display: none;
+        }
+        img[src*="logo"] {
+            height: 70px;
+            width: 60px;
+        }
+    }
+
+    @media screen and (min-width: 320px) {
+        #PageLeft {
+            display: none;
+        }
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+            height: 80px;
+        }
+        i[id*="broadcastbtn"] {
+            display: inline;
+            margin-right: 15px;
+        }
+        .popup {
+          width: 250px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.5%;
+          width: 17em;"
+        }
+        .baudio {
+          position: absolute;
+          right: 10%;
+        }
+        #btnCast {
+          position: absolute;
+          left: 33%;
+        }
+        #profile_pic_box {
+            position: relative;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 57%;
+            bottom: 10px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 57%;
+            bottom: 10px;
+        }
+        #prosubicon,
+        #subicon {
+            left: 0.4%;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 18%;
+        }
+        #parentContainer {
+            position: relative;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 83%;
+            cursor: pointer;
+        }
+        .iconsignup {
+            padding-left: 45px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 40px;
+        }
+        #loginbtn {
+            margin-left: 80px;
+        }
+        #loginform a {
+            margin-left: 90px;
+        }
+        .ccode {
+            width: 158px;
+        }
+        #checkbox_id {
+            margin-left: 50px;
+        }
+        #signupbtn {
+            margin-left: 85px;
+        }
+        .loginstatus {
+            margin-left: 70px;
+        }
+        .signupstatus {
+            margin-left: 75px;
+        }
+        #facebookicon {
+          margin-left: 100px;
+        }
+        .forgotpasswd {
+          margin-left: -10px;
+        }
+        .darkdiv {
+          margin-left: -10px;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 92.5%;
+            display: inline;
+        }
+        #comments {
+            width: 87%;
+        }
+        #content_type {
+            font-size: 25px;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 25%;
+            display: inline;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 18%;
+        }
+        #followCnt {
+            text-align: center;
+            margin-top: 5px;
+        }
+        .recurrent {
+            display: none;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 10%;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 10%;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            color: gray;
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 20%;
+            color: gray;
+        }
+        #followBtn {
+            position: absolute;
+            top: 60%;
+            right: 38%;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        #aboutBlock {
+            margin-top: 10px;
+            margin-bottom: -20px;
+        }
+        #aboutNone {
+            margin-top: 0px;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 9%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 19%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 29%;
+        }
+        /* Ends here */
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        /* Styling for right side provider detail */
+        #providerName {
+            position: absolute;
+            left: 20%;
+            top: 38%;
+            font-size: 18px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 34%;
+            opacity: .1;
+            font-size: 32px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 66%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+        #pr-copyright {
+            font-size: 13px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 36%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 240px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 105px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 70%;
+        }
+        .notification-user {
+            left: 20%;
+        }
+        .notification-message {
+            left: 20%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        #nav-follow {
+            text-align: center;
+        }
+        #nav-follow ul li a {
+            font-size: 1.2em;
+            font-weight: 800;
+        }
+    }
+
+    @media screen and (min-width: 360px) {
+        #PageLeft {
+            display: none;
+        }
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+            height: 80px;
+        }
+        #profile_pic_box {
+            position: relative;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 55.8%;
+            bottom: 10px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 55.8%;
+            bottom: 10px;
+        }
+        .pageMiddleForm {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+        #loginformMiddle {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+        #prosubicon,
+        #subicon {
+            position: absolute;
+            left: 0.5%;
+        }
+        #aboutBlock {
+            margin-top: 10px;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 16%;
+        }
+        .iconsignup {
+            padding-left: 55px;
+        }
+        .ccode {
+            width: 170px;
+        }
+        #checkbox_id {
+            margin-left: 60px;
+        }
+        .signupstatus {
+            margin-left: 85px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 45px;
+        }
+        #loginform a {
+            margin-left: 95px;
+        }
+        .loginstatus {
+            margin-left: 90px;
+        }
+        #facebookicon {
+          margin-left: 110px;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 16%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 22%;
+            display: inline;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 12%;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 13%;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            color: gray;
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 22%;
+            color: gray;
+        }
+        #followBtn {
+            position: absolute;
+            top: 60%;
+            right: 39%;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 85%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 93%;
+            display: inline;
+        }
+        #comments {
+            width: 88%;
+        }
+        #content_type {
+            margin-left: auto;
+            margin-right: auto;
+            opacity: .2;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 8%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 18%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 26.9%;
+        }
+        /* Ends here */
+        .dropdown-content {
+            left: 26%;
+        }
+        /* Styling for right side provider detail */
+        #providerName {
+            position: absolute;
+            left: 18%;
+            top: 38%;
+            font-size: 18px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 34%;
+            opacity: .1;
+            font-size: 32px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 70%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+        #pr-copyright {
+            font-size: 13px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #entercurrent,
+        #enternew,
+        #enterconfirm {
+            font-size: 15px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 36%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 260px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 125px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 75%;
+        }
+        .notification-user {
+            left: 18%;
+        }
+        .notification-message {
+            left: 18%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .fa-chart-pie {
+            display: inline;
+            margin-right: 10px;
+        }
+        img[src*="logo"] {
+            height: 70px;
+            width: 100px;
+        }
+    }
+
+    @media screen and (min-width: 360px) {
+       #forgotpasswda {
+            padding-left: 8px;
+       }
+       #facebookicon {
+            margin-left: 105px;
+       }
+    }
+
+    @media screen and (min-width: 375px) {
+      #facebookicon {
+        margin-left: 110px;
+      }
+      .forgotpasswd {
+        margin-left: -2px;
+      }
+      .darkdiv {
+        margin-left: -2px;
+      }
+    }
+
+    @media screen and (min-width: 384px) {
+      #forgotpasswda {
+        padding-left: 5px;
+      }
+    }
+
+    @media screen and (min-width: 400px) {
+        #PageLeft {
+            display: none;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 14%;
+        }
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 55.8%;
+            bottom: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 55.8%;
+            bottom: 10px;
+        }
+        .iconsignup {
+            padding-left: 60px;
+        }
+        .ccode {
+            width: 182px;
+        }
+        #signupbtn {
+            margin-left: 90px;
+        }
+        #loginbtn {
+            margin-left: 100px;
+        }
+        .signupstatus {
+            margin-left: 95px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 55px;
+        }
+        #loginform a {
+            margin-left: 120px;
+        }
+        .loginstatus {
+            margin-left: 110px;
+        }
+        #facebookicon {
+          margin-left: 140px;
+        }
+        #prosubicon,
+        #subicon {
+            left: 0.6%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 14%;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 12%;
+            font-size: 17px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 13%;
+            font-size: 17px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 22%;
+            color: gray;
+            font-size: 17px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 23%;
+            color: gray;
+            font-size: 17px;
+        }
+        #followBtn {
+            font-size: 15px;
+            left: 35%;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        .subscription {
+            font-size: 17px;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 20%;
+            display: inline;
+        }
+        #comments {
+            width: 89%;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 7%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 18%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 25.9%;
+        }
+        /* Ends here */
+        .dropdown-content {
+            left: 30%;
+        }
+        /* Styling for right side provider detail */
+        #providerName {
+            position: absolute;
+            left: 15%;
+            top: 38%;
+            font-size: 18px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 36%;
+            opacity: .1;
+            font-size: 32px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 74%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        #pr-copyright {
+            font-size: 14px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 280px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 146px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 76%;
+        }
+        .notification-user {
+            left: 15.9%;
+        }
+        .notification-message {
+            left: 15.9%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        #passsubmit {
+            left: 35%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .popup {
+          width: 310px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.5%;
+          width: 20.9em;"
+        }
+        .baudio {
+          position: absolute;
+          right: 15%;
+        }
+        #btnCast {
+          position: absolute;
+          left: 35%;
+        }
+        img[src*="logo"] {
+            height: 60px;
+            width: 120px;
+            padding-top: 5px;
+        }
+    }
+
+    @media screen and (min-width: 412px) {
+      #facebookicon {
+        margin-left: 130px;
+      }
+      #howitworks {
+        margin-left: 25px;
+      }
+    }
+
+    @media screen and (min-width: 440px) {
+        .dropdown-content {
+            left: 32%;
+        }
+        #comments {
+            width: 90%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 20px;
+        }
+        #providerName {
+            position: absolute;
+            left: 14%;
+            top: 38%;
+            font-size: 18px;
+        }
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .iconsignup {
+            padding-left: 80px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 80px;
+        }
+        .ccode {
+            width: 190px;
+        }
+        #checkbox_id {
+            margin-left: 80px;
+        }
+        #signupbtn {
+            margin-left: 110px;
+        }
+        #loginbtn {
+            margin-left: 110px;
+        }
+        #loginform a {
+            margin-left: 130px;
+        }
+        .loginstatus {
+            margin-left: 130px;
+        }
+        .signupstatus {
+            margin-left: 130px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 38%;
+            opacity: .1;
+            font-size: 32px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 76%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 320px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 166px;
+            width: 60px;
+            height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 16%;
+            font-size: 18px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 14%;
+            font-size: 18px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 38%;
+            left: 25%;
+            color: gray;
+            font-size: 18px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 38%;
+            right: 22%;
+            color: gray;
+            font-size: 18px;
+        }
+        .subscription {
+            font-size: 18px;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 35%;
+            font-size: 15px;
+        }
+        #notification-date {
+            left: 80%;
+        }
+        .notification-user {
+            left: 14.8%;
+        }
+        .notification-message {
+            left: 14.8%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .popup {
+          width: 330px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.5%;
+          width: 22.5em;"
+        }
+        .baudio {
+          position: absolute;
+          right: 16%;
+        }
+        #btnCast {
+          position: absolute;
+          left: 37%;
+        }
+    }
+
+    @media screen and (min-width: 480px) {
+        #PageLeft {
+            display: none;
+        }
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+            height: 80px;
+        }
+        #profile_pic_box {
+            position: relative;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 55%;
+            bottom: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 55%;
+            bottom: 10px;
+        }
+        #prosubicon,
+        #subicon {
+            left: 0.5%;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 12%;
+        }
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        #aboutBlock {
+            margin-top: 10px;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 12%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 17%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 88%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 94%;
+            display: inline;
+        }
+        #comments {
+            width: 91%;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 11%;
+            font-size: 18px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            font-size: 18px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            color: gray;
+            font-size: 18px
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 17%;
+            color: gray;
+            font-size: 18px;
+        }
+        .subscription {
+            font-size: 18px;
+        }
+        #subscribeBtn {
+            font-size: 18px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 60%;
+            right: 35%;
+            font-size: 18px;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 6%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 15%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 22%;
+        }
+        /* Ends here */
+        #p-100 {
+            float: left;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        #p-500 {
+            width: 30.333%;
+            margin-left: 1.5%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-1000 {
+            float: right;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            /*box-sizing: border-box;*/
+        }
+        .pg1 {
+            width: 150px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #fmp-button img {
+            width: 120px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 150px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .pg3 {
+            width: 150px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .dropdown-content {
+            left: 30%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 25px;
+        }
+        #providerName {
+            position: absolute;
+            left: 12%;
+            top: 38%;
+            font-size: 18px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 40%;
+            opacity: .1;
+            font-size: 35px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 78%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 350px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 186px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 80%;
+        }
+        .notification-user {
+            left: 12%;
+        }
+        .notification-message {
+            left: 12%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: block;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .popup {
+          width: 360px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.2%;
+          width: 24.6em;"
+        }
+        .baudio {
+          position: absolute;
+          right: 20%;
+        }
+        #btnCast {
+          position: absolute;
+          left: 39%;
+        }
+    }
+
+    @media screen and (min-width: 500px) {
+        #notification-date {
+            left: 82%;
+        }
+        .notification-user {
+            left: 12.8%;
+        }
+        .notification-message {
+            left: 12.8%;
+        }
+        .ccode {
+            width: 204px;
+        }
+        #loginform a {
+            margin-left: 140px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 196px;
+            width: 60px;
+            height: 60px;
+        }
+        .followerspan {
+            left: 18%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        div#lowerbtm>.fa-chart-pie {
+            margin-right: 30px;
+        }
+        div#lowerbtm i[id*="broadcastbtn"] {
+            margin-right: 30px;
+        }
+        .popup {
+          width: 380px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.2%;
+          width: 25.9em;"
+        }
+    }
+
+    @media screen and (min-width: 540px) {
+        #PageLeft {
+            display: none;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 90%;
+            cursor: pointer;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 11%;
+        }
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .ccode {
+            width: 202px;
+        }
+        .iconsignup {
+            padding-left: 100px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 80px;
+        }
+        #loginbtn {
+            margin-left: 120px;
+        }
+        #loginform a {
+            margin-left: 150px;
+        }
+        #signupbtn {
+            margin-left: 125px;
+        }
+        #checkbox_id {
+            margin-left: 100px;
+        }
+        .loginstatus {
+            margin-left: 140px;
+        }
+        .signupstatus {
+            margin-left: 150px;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 54%;
+            bottom: 10px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 54%;
+            bottom: 10px;
+        }
+        #prosubicon,
+        #subicon {
+            position: absolute;
+            left: 0.5%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 11%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 15%;
+            display: inline;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 95%;
+            display: inline;
+        }
+        #comments {
+            width: 92%;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 15%;
+            font-size: 20px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 15%;
+            font-size: 20px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 23%;
+            color: gray;
+            font-size: 20px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 23%;
+            color: gray;
+            font-size: 20px;
+        }
+        .subscription {
+            font-size: 20px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 60%;
+            right: 35%;
+            font-size: 15px;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        .pg1 {
+            width: 170px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #fmp-button img {
+            width: 140px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 170px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .pg3 {
+            width: 170px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .dropdown-content {
+            left: 32%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 28px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 11%;
+            top: 40%;
+            font-size: 20px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 38%;
+            opacity: .1;
+            font-size: 45px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 81%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 350px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 216px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 82%;
+        }
+        .notification-user {
+            left: 12%;
+        }
+        .notification-message {
+            left: 12%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .popup {
+          width: 420px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.2%;
+          width: 28.6em;"
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+      #facebookicon {
+        margin-left: 160px;
+      }
+      .forgotpasswd {
+        margin-left: 8px;
+      }
+      .darkdiv {
+        margin-left: 8px;
+      }
+      #howitworks {
+        margin-left: 2px;
+      }
+    }
+
+    @media screen and (min-width: 620px) {
+        #PageLeft {
+            display: none;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 9%;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 54%;
+            bottom: 10px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 54%;
+            bottom: 10px;
+        }
+        .ccode {
+            width: 232px;
+        }
+        .iconsignup {
+            padding-left: 120px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 110px;
+        }
+        #loginbtn {
+            margin-left: 140px;
+        }
+        #loginform a {
+            margin-left: 200px;
+        }
+        #signupbtn {
+            margin-left: 145px;
+        }
+        #checkbox_id {
+            margin-left: 120px;
+        }
+        .loginstatus {
+            margin-left: 190px;
+        }
+        .signupstatus {
+            margin-left: 180px;
+        }
+        #facebookicon{
+          margin-left: 250px;
+        }
+        #prosubicon,
+        #subicon {
+            position: absolute;
+            left: 0.5%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 9%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 13%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            position: absolute;
+            bottom: 0;
+            left: 91%;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 95.5%;
+            display: inline;
+        }
+        #comments {
+            width: 93%;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 13%;
+            font-size: 20px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 14%;
+            font-size: 20px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 38%;
+            left: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 38%;
+            right: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .subscription {
+            font-size: 20px;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 35%;
+            font-size: 15px;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5%;
+        }
+        i[id*="likebtn"] {
+            position: absolute;
+            left: 0%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 15%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 21%;
+        }
+        /* Ends here */
+        .pg1 {
+            width: 200px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #fmp-button img {
+            width: 160px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 200px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .pg3 {
+            width: 200px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .dropdown-content {
+            left: 34%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 30px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 10%;
+            top: 40%;
+            font-size: 20px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 40%;
+            opacity: .1;
+            font-size: 50px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 82%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 390px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 256px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 84%;
+        }
+        .notification-user {
+            left: 10%;
+        }
+        .notification-message {
+            left: 10%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        .popup {
+          width: 480px;
+        }
+        .mobilepop {
+          position: absolute;
+          left: 2.2%;
+          width: 32.8em;"
+        }
+        .baudio {
+          position: absolute;
+          right: 28%;
+        }
+        #btnCast {
+          position: absolute;
+          left: 41%;
+        }
+    }
+
+    @media screen and (min-width: 640px) {
+      #forgotpasswda {
+        padding-left: 1px;
+      }
+      #facebookicon {
+        margin-left: 200px;
+      }
+      #howitworks {
+        margin-left: 20px;
+      }
+    }
+
+    @media screen and (min-width: 700px) {
+        #PageLeft {
+            display: none;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 53.5%;
+            bottom: 10px;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 53.5%;
+            bottom: 10px;
+        }
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .ccode {
+            width: 230px;
+        }
+        .iconsignup {
+            padding-left: 120px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 110px;
+        }
+        #loginbtn {
+            margin-left: 135px;
+        }
+        #loginform a {
+            margin-left: 190px;
+        }
+        #signupbtn {
+            margin-left: 140px;
+        }
+        #checkbox_id {
+            margin-left: 120px;
+        }
+        .loginstatus {
+            margin-left: 180px;
+        }
+        .signupstatus {
+            margin-left: 180px;
+        }
+        #facebookicon {
+          margin-left: 180px;
+        }
+        #parentContainer img[src*="chat"] {
+            left: 91.5%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 9%;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 14%;
+            font-size: 20px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 14%;
+            font-size: 20px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 38%;
+            left: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 38%;
+            right: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .subscription {
+            font-size: 20px;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 35%;
+            font-size: 15px;
+        }
+        #comments {
+            width: 94%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 13%;
+            display: inline;
+        }
+        #prosubicon,
+        #subicon {
+            position: absolute;
+            left: 1.5%;
+        }
+        .pg1 {
+            width: 240px;
+            height: 70px;
+            margin-left: -12px;
+        }
+        #fmp-button img {
+            width: 180px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 240px;
+            height: 70px;
+            margin-left: -12px;
+        }
+        .pg3 {
+            width: 240px;
+            height: 70px;
+            margin-left: -12px;
+        }
+        .dropdown-content {
+            left: 36%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 30px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 9.2%;
+            top: 40%;
+            font-size: 20px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 40%;
+            opacity: .1;
+            font-size: 50px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 85%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 420px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 296px;
+            width: 60px;
+            height: 60px;
+        }
+        #notification-date {
+            left: 85%;
+        }
+        .notification-user {
+            left: 9%;
+        }
+        .notification-message {
+            left: 9%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+    }
+
+    @media screen and (min-width: 740px) {
+        #PageLeft {
+            display: none;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 53.1%;
+            bottom: 13%;
+        }
+        div#profile_page_pic_box>#profileimage {
+            left: 52.8%;
+            bottom: 9%;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 91.5%;
+            cursor: pointer;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 7.5%;
+        }
+        .ccode {
+            width: 240px;
+        }
+        .iconsignup {
+            padding-left: 140px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 120px;
+        }
+        #loginbtn {
+            margin-left: 145px;
+        }
+        #loginform a {
+            margin-left: 210px;
+        }
+        #signupbtn {
+            margin-left: 150px;
+        }
+        #checkbox_id {
+            margin-left: 140px;
+        }
+        .loginstatus {
+            margin-left: 200px;
+        }
+        .signupstatus {
+            margin-left: 210px;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 7.5%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 10.5%;
+            display: inline;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 95.2%;
+            display: inline;
+        }
+        #comments {
+            width: 94%;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 16%;
+            font-size: 20px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 14%;
+            font-size: 20px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 38%;
+            left: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 38%;
+            right: 20%;
+            color: gray;
+            font-size: 20px;
+        }
+        .subscription {
+            font-size: 20px;
+        }
+        #subscribeBtn {
+            font-size: 15px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 35%;
+            font-size: 15px;
+        }
+        #searchquery {
+            width: 96%;
+        }
+        #thisdate {
+            width: 128px;
+        }
+        /* Styling for Like/Unlike button */
+        #lowerbtm {
+            position: relative;
+        }
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 4%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 19%;
+        }
+        /* Ends here */
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 40px 0px 0px 490px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 316px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 30px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 8%;
+            top: 40%;
+            font-size: 20px;
+        }
+        #content-type {
+            position: absolute;
+            top: 8%;
+            left: 40%;
+            opacity: .1;
+            font-size: 50px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 85%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #pr-copyright {
+            font-size: 15px;
+        }
+        #notification-date {
+            left: 88%;
+        }
+        .notification-user {
+            left: 9%;
+        }
+        .notification-message {
+            left: 9%;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+    }
+
+    @media screen and (min-width: 768px) {
+        #profile_pic_box img {
+            margin-right: 1.5%;
+            margin-left: 1.5%;
+            margin-bottom: -5px;
+            display: inline-block;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #profile_pic_box {
+            position: relative;
+        }
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 66%;
+            bottom: 11%;
+            height: 20px;
+            width: 20px;
+        }
+        #profile_page_pic_box {
+            position: relative;
+        }
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 68%;
+            bottom: 9%;
+            height: 20px;
+            width: 20px;
+        }
+        #PageLeft {
+            display: block;
+            float: left;
+            width: 15%;
+            height: 100%;
+            margin-right: 2%;
+            margin-left: 13%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .b1,
+        .b2 {
+            display: block;
+        }
+        #PageMiddle {
+            width: 40%;
+            height: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        #PageMiddle>#pageMiddleForm {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        #pageMiddleForm>#audio_upload {
+            width: 100%;
+        }
+        #hide {
+            width: 100%;
+            font-size: 12px;
+        }
+        #hide>div {
+            margin: auto;
+        }
+        /* Styles for drop down on home page */
+        #subscribers {
+            width: 140px;
+            float: right;
+        }
+        #followers {
+            width: 140px;
+            float: right;
+        }
+        #recurrent {
+            width: 140px;
+            float: right;
+        }
+        #shared {
+            width: 140px;
+            float: right;
+        }
+        #thisdate {
+            width: 110px;
+        }
+        /* Ends Here */
+        #mobile {
+            width: 100%;
+        }
+        #message::-webkit-input-placeholder {
+            font-size: 10px;
+            word-wrap: break-word;
+        }
+        #message:-moz-placeholder {
+            font-size: 10px;
+            word-wrap: break-word;
+        }
+        #message:-ms-input-placeholder {
+            font-size: 10px;
+            word-wrap: break-word;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 17.5%;
+        }
+        #PageRight {
+            float: right;
+            width: 15%;
+            margin-left: 2%;
+            margin-right: 13%;
+            height: 100%;
+            text-align: center;
+        }
+        /* Styling for pageRight provider display */
+        #big-ads {
+            box-sizing: border-box;
+        }
+        .whoto {
+            font-size: 11px;
+        }
+        #eachprovider {
+            position: relative;
+            height: 80px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 30px;
+            height: 30px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            top: 0%;
+            left: 20%;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 32%;
+            opacity: .2;
+            font-size: 18px;
+        }
+        #nofsub {
+            position: absolute;
+            top: 0;
+            left: 20%;
+            opacity: .5;
+        }
+        #nofbroadcast {
+            position: absolute;
+            top: 0;
+            right: 15%;
+            opacity: .5;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 10%;
+            font-size: 11px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 11px;
+        }
+        .viewall:hover,
+        .refresh:hover {
+            text-decoration: underline;
+        }
+        /* Ends Here */
+        .Website:hover {
+            text-decoration: underline;
+        }
+        .subscribe:hover {
+            text-decoration: underline;
+        }
+        #pr-ads {
+            text-align: center;
+        }
+        #pr-copyright {
+            text-align: center;
+            color: white;
+            font-size: 12px;
+        }
+        table {
+            margin: 0 auto;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 17%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 25%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 84%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 93%;
+            display: inline;
+        }
+        #comments {
+            width: 87%;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 9%;
+        }
+        i[id*="unlikebtn"] {
+            position: absolute;
+            left: 17%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 27%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: none;
+        }
+        /* Ends here */
+        /* styling for the billing page */
+        #p-100 {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-500 {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-1000 {
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            float: none;
+        }
+        /*   Ends Here */
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+            margin-top: 10px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            font-size: 9px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            font-size: 9px;
+        }
+        .followerspan {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            color: gray;
+            font-size: 16px;
+        }
+        .followingspan {
+            position: absolute;
+            top: 30%;
+            right: 20%;
+            color: gray;
+            font-size: 16px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 21%;
+            font-size: 10px;
+        }
+        #subscribeBtn {
+            font-size: 10px;
+        }
+        .noaudio {
+            font-size: 10px;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        #userProfile .MobileIcon {
+            font-size: 10px;
+        }
+        .subscription {
+            font-size: 10px;
+        }
+        .subscribe {
+            font-size: 10px;
+        }
+        .Website {
+            font-size: 10px;
+        }
+        #aboutBlock {
+            margin-bottom: -25px;
+            margin-top: 10px;
+        }
+        /* Styling for notification page */
+        #notification-date {
+            left: 72%;
+        }
+        .notification-user {
+            left: 19%;
+        }
+        .notification-message {
+            left: 19%;
+        }
+        /* Styling for profile page */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .dropbtn {
+            font-size: 16px;
+            border: none;
+            margin-bottom: 1px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 25%;
+            background-color: #f9f9f9;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: left;
+            color: black;
+            padding: 10px 12px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        #searchquery,
+        #searchprovider {
+            width: 92%;
+        }
+        .accordion {
+            display: none;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 85px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 16px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 30%;
+        }
+        .forgotpasswd {
+          margin-left: -4px;
+        }
+        .darkdiv {
+          margin-left: -4px;
+        }
+        #entercurrent,
+        #enternew,
+        #enterconfirm {
+            font-size: 12px;
+        }
+
+        /* Styling for login and signup page */
+        .pageMiddleForm,
+        #loginformMiddle {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .ccode {
+            width: 155px;
+        }
+        #signupbtn {
+            font-size: 18px;
+            padding: 12px;
+            margin-left: 70px;
+        }
+        #loginbtn {
+            margin-left: 65px;
+        }
+        #loginform a {
+            margin-left: 55px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        .iconsignup {
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+        #checkbox_id {
+            margin-left: 40px;
+        }
+        .signupstatus {
+            margin-left: 50px;
+        }
+        .loginstatus {
+            margin-left: 50px;
+        }
+        #facebookicon {
+          margin-left: 60px;
+        }
+        /* Ends Here */
+        .fa-chart-pie {
+            display: none;
+        }
+        div#lowerbtm i[id*="broadcastbtn"] {
+            margin-right: 20px;
+        }
+        ul.gallery-slideshow {
+            display: inline-block;
+            height: 410px;
+            width: 410px;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 62%;
+            bottom: 13%;
+        }
+        div#profile_page_pic_box>#profileimage {
+            left: 63.9%;
+            bottom: 9%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 17.5%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 25%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 84%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 92.5%;
+        }
+        #comments {
+            width: 87%;
+        }
+        #followerscnt {
+            font-size: 10px;
+        }
+        #followingcnt {
+            font-size: 10px;
+        }
+        .subscribe {
+            font-size: 10px;
+        }
+        .subscription {
+            font-size: 10px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 10px;
+        }
+        .Website {
+            font-size: 10px;
+        }
+        #followBtn {
+            left: 24%;
+            font-size: 10px;
+        }
+        #subscribeBtn {
+            font-size: 10px;
+        }
+        .noaudio {
+            font-size: 10px;
+        }
+        #hide {
+            font-size: 10px;
+        }
+        .dropdown-content {
+            position: absolute;
+            left: 25%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 12px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 30px;
+            height: 30px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 12px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 34%;
+            opacity: .2;
+            font-size: 15px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 15%;
+            font-size: 11px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 11px;
+        }
+        #pr-copyright {
+            font-size: 11px;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 90px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 19px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 35%;
+        }
+        #notification-date {
+            left: 72%;
+        }
+        .notification-user {
+            left: 20%;
+        }
+        .notification-message {
+            left: 20%;
+        }
+        .ccode {
+            width: 157px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 32px;
+            box-sizing: border-box;
+        }
+        .iconsignup {
+            padding-left: 45px;
+        }
+        .welcome-naatcast {
+            font-size: 35px;
+        }
+        .naatcast {
+            font-size: 10px;
+        }
+        .solicited {
+            margin-left: -20px;
+        }
+        #checkbox_id {
+            margin-left: 45px;
+        }
+        #signupbtn {
+            font-size: 16px;
+            margin-left: 80px;
+        }
+        #loginbtn {
+            margin-left: 80px;
+        }
+        #loginform a {
+            margin-left: 75px;
+        }
+        .signupstatus {
+            margin-left: 70px;
+        }
+        .loginstatus {
+            margin-left: 72px;
+        }
+        #facebookicon {
+          margin-left: 68px;
+        }
+        ul.gallery-slideshow {
+            display: inline-block;
+            height: 450px;
+            width: 450px;
+        }
+        #howitworks {
+            margin-left: -5px;
+        }
+    }
+    @media screen and (min-width: 834px) {
+      #facebookicon {
+        margin-left: 80px;
+    }
+    @media screen and (min-width: 880px) {
+      ul.gallery-slideshow {
+          display: inline-block;
+          height: 480px;
+          width: 480px;
+      }
+    }
+
+    @media screen and (min-width: 960px) {
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 60%;
+            bottom: 13%;
+        }
+        div#profile_page_pic_box>#profileimage {
+            left: 62%;
+            bottom: 9%;
+        }
+        #ProfileName {
+            top: 10%;
+            left: 14%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 14%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 20%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 85%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 92%;
+        }
+        #comments {
+            width: 89%;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+        }
+        #followerscnt {
+            font-size: 11px;
+        }
+        #followingcnt {
+            font-size: 11px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            right: 20%;
+        }
+        #followBtn {
+            position: absolute;
+            left: 28%;
+            font-size: 12px;
+        }
+        #subscribeBtn {
+            font-size: 12px;
+        }
+        .subscribe {
+            font-size: 11px;
+        }
+        .subscription {
+            font-size: 11px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 11px;
+        }
+        .Website {
+            font-size: 11px;
+        }
+        .noaudio {
+            font-size: 11px;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        #hide {
+            font-size: 14px;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 7.5%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 25%;
+        }
+        /* Ends here */
+        /* styling for the billing page */
+        .dropdown-content {
+            left: 30%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 13px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 43px;
+            height: 43px;
+            top: 22%;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 37%;
+            opacity: .2;
+            font-size: 18px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 12px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+        #pr-copyright {
+            font-size: 12px;
+        }
+        #notification-date {
+            left: 78%;
+        }
+        .notification-user {
+            left: 16%;
+        }
+        .notification-message {
+            left: 16%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 113px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 31px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 35%;
+        }
+        #entercurrent,
+        #enternew,
+        #enterconfirm {
+            font-size: 16px;
+        }
+        .ccode {
+            width: 180px;
+        }
+
+        #loginbtn {
+            margin-left: 85px;
+        }
+        #loginform a {
+            margin-left: 90px;
+        }
+        .iconsignup {
+            padding-left: 68px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 50px;
+            box-sizing: border-box;
+        }
+        #checkbox_id {
+            margin-left: 67px;
+        }
+        #signupbtn {
+            margin-left: 90px;
+        }
+        .signupstatus {
+            margin-left: 90px;
+        }
+        .loginstatus {
+            margin-left: 85px;
+        }
+        div#lowerbtm .fa-chart-pie {
+           display: inline;
+           margin-right: 15px;
+        }
+        div#lowerbtm i[id*="broadcastbtn"] {
+            margin-right: 15px;
+        }
+        ul.gallery-slideshow {
+            display: inline-block;
+            height: 500px;
+            width: 500px;
+        }
+    }
+
+    @media screen and (min-width: 990px) {
+        ul.gallery-slideshow {
+            display: inline-block;
+            height: 520px;
+            width: 520px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+      #facebookicon {
+        margin-left: 110px;
+      }
+      #forgotpasswda {
+        padding-left: 2px;
+      }
+      .forgotpasswd {
+        margin-left: 10px;
+      }
+      .darkdiv {
+        margin-left: 10px;
+      }
+    }
+
+    @media screen and (min-width: 1080px) {
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 59%;
+            bottom: 13%;
+        }
+        div#profile_page_pic_box>#profileimage {
+            left: 61%;
+            bottom: 9%;
+        }
+        #followerscnt {
+            font-size: 12px;
+        }
+        #followingcnt {
+            font-size: 12px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            left: 70%;
+        }
+        #followBtn {
+            font-size: 12px;
+            left: 30%;
+        }
+        .subscription {
+            font-size: 12px;
+        }
+        .subscribe {
+            font-size: 12px;
+        }
+        .noaudio {
+            font-size: 12px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 12px;
+        }
+        .Website {
+            font-size: 12px;
+        }
+        #hide {
+            font-size: 13px;
+        }
+        #ProfileName {
+            top: 10%;
+            left: 13.1%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 13.1%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 18.4%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 87%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 94%;
+        }
+        #comments {
+            width: 90%;
+        }
+        div.dropdown .dropdown-content a[href*="callrecords"] {
+            display: block;
+        }
+        #p-100 {
+            float: left;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        #p-500 {
+            width: 30.333%;
+            margin-left: 1.5%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-1000 {
+            float: right;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .pg1 {
+            width: 140px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #fmp-button img {
+            width: 120px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 140px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .pg3 {
+            width: 140px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .dropdown-content {
+            left: 27%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 16px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 45px;
+            height: 45px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 13px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 33%;
+            opacity: .2;
+            font-size: 19px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 13px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 12px;
+        }
+        #pr-copyright {
+            font-size: 12px;
+        }
+        #notification-date {
+            left: 80%;
+        }
+        .notification-user {
+            left: 14%;
+        }
+        .notification-message {
+            left: 14%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 133px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 40px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 70px;
+            box-sizing: border-box;
+        }
+        .iconsignup {
+            padding-left: 80px;
+            box-sizing: border-box;
+        }
+        .ccode {
+            width: 197px;
+        }
+        #checkbox_id {
+            margin-left: 80px;
+        }
+        #signupbtn {
+            margin-left: 100px;
+        }
+        #loginbtn {
+            margin-left: 110px;
+        }
+        #loginform a {
+            margin-left: 130px;
+        }
+        .signupstatus {
+            margin-left: 110px;
+        }
+        .loginstatus {
+            margin-left: 125px;
+        }
+        #call_status {
+            position: absolute;
+            right: 25%;
+        }
+        #from_date {
+          height: 23px;
+        }
+        #to_date {
+            position: absolute;
+            right: 55%;
+            height: 23px;
+        }
+    }
+
+    @media screen and (min-width: 1160px) {
+        div#profile_pic_box>#profileimage {
+            position: absolute;
+            left: 59%;
+            bottom: 13%;
+        }
+        div#profile_page_pic_box>#profileimage {
+            left: 61%;
+            bottom: 9%;
+        }
+        #followerscnt {
+            font-size: 13px;
+        }
+        #followingcnt {
+            font-size: 13px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            left: 70%;
+        }
+        .subscribe {
+            font-size: 13px;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 30%;
+            font-size: 13px;
+        }
+        .subscription {
+            font-size: 13px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 13px;
+        }
+        .Website {
+            font-size: 13px;
+        }
+        .noaudio {
+            font-size: 13px;
+        }
+        #hide {
+            font-size: 14px;
+        }
+        #ProfileName {
+            left: 12%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 12%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 16.5%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 89%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 94.9%;
+        }
+        #comments {
+            width: 91%;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5.6%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 23.7%;
+        }
+        /* Ends here */
+        #p-100 {
+            float: left;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        #p-500 {
+            width: 30.333%;
+            margin-left: 1.5%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-1000 {
+            float: right;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .pg1 {
+            width: 150px;
+            height: 70px;
+        }
+        #fmp-button img {
+            width: 120px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 150px;
+            height: 70px;
+        }
+        .pg3 {
+            width: 150px;
+            height: 70px;
+        }
+        .dropdown-content {
+            left: 28%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 16px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 45px;
+            height: 45px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 14px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 32%;
+            opacity: .2;
+            font-size: 20px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        #pr-copyright {
+            font-size: 13px;
+        }
+        #notification-date {
+            left: 80%;
+        }
+        .notification-user {
+            left: 13%;
+        }
+        .notification-message {
+            left: 13%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 142px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 46px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        .ccode {
+            width: 210px;
+        }
+        #checkbox_id {
+            margin-left: 90px;
+        }
+        #signupbtn {
+            margin-left: 110px;
+        }
+        #loginbtn {
+            margin-left: 110px;
+        }
+        #loginform a {
+            margin-left: 130px;
+        }
+        .signupstatus {
+            margin-left: 130px;
+        }
+        .loginstatus {
+            margin-left: 130px;
+        }
+        .iconsignup {
+            padding-left: 90px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 80px;
+            box-sizing: border-box;
+        }
+        .quote-phrase {
+            font-size: 24px;
+        }
+        div#lowerbtm .fa-chart-pie {
+            margin-right: 30px;
+        }
+        div#lowerbtm i[id*="broadcastbtn"] {
+            margin-right: 30px;
+        }
+    }
+
+    @media screen and (min-width: 1190px) {
+        .ccode {
+            width: 210px;
+        }
+        .iconsignup {
+            padding-left: 100px;
+        }
+        #checkbox_id {
+            margin-left: 105px;
+        }
+        #signupbtn {
+            margin-left: 120px;
+        }
+        #loginbtn {
+            margin-left: 110px;
+        }
+        .signupstatus {
+            margin-left: 150px;
+        }
+        #loginform a {
+            margin-left: 140px;
+        }
+    }
+
+    @media screen and (min-width: 1220px) {
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 61%;
+        }
+        div#profile_pic_box>#profileimage {
+            bottom: 12%;
+            left: 59%;
+        }
+        #ProfileName {
+            top: 10%;
+            left: 12%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 11%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 15.5%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 89%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 94.5%;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5.6%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 22.9%;
+        }
+        /* Ends here */
+        #followerscnt {
+            font-size: 13px;
+        }
+        #followingcnt {
+            font-size: 13px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            left: 70%;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 30%;
+            font-size: 14px;
+        }
+        .subscription {
+            font-size: 13px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 13px;
+        }
+        .subscribe {
+            font-size: 13px;
+        }
+        .Website {
+            font-size: 13px;
+        }
+        #hide {
+            font-size: 14px;
+            background-color: #d9d9d9;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5.5%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 22.8%;
+        }
+        /* Styling for right side provider detail */
+        .whoto {
+            font-size: 19px;
+        }
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 14px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 32%;
+            opacity: .2;
+            font-size: 20px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        #pr-copyright {
+            font-size: 13px;
+        }
+        #searchWrap {
+            width: 99%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 156px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 52px;
+            width: 60px;
+            height: 60px;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 40%;
+        }
+        .dropdown-content {
+            position: absolute;
+            left: 30.5%;
+        }
+        .pg1 {
+            width: 160px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #fmp-button img {
+            width: 140px;
+            height: 50px;
+        }
+        .pg2 {
+            width: 160px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        .pg3 {
+            width: 160px;
+            height: 70px;
+            margin-left: -5px;
+        }
+        #notification-date {
+            left: 80%;
+        }
+        .notification-user {
+            left: 13%;
+        }
+        .notification-message {
+            left: 13%;
+        }
+        .ccode {
+            width: 215px;
+        }
+        #checkbox_id {
+            margin-left: 100px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 85px;
+            box-sizing: border-box;
+        }
+        #loginbtn {
+            margin-left: 115px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 60%;
+        }
+        div#profile_pic_box>#profileimage {
+            left: 58%;
+            bottom: 12%;
+        }
+        #ProfileName {
+            top: 8%;
+            left: 10.8%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 10.8%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 15.5%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            left: 89%;
+        }
+        .comment {
+            left: 94.5%;
+        }
+        #followerscnt {
+            font-size: 14px;
+        }
+        #followingcnt {
+            font-size: 14px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            left: 70%;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 30%;
+            font-size: 14px;
+        }
+        #userProfile .MobileIcon {
+            font-size: 14px;
+        }
+        .subscribe {
+            font-size: 14px;
+        }
+        .subscription {
+            font-size: 14px;
+        }
+        .Website {
+            font-size: 14px;
+        }
+        .noaudio {
+            font-size: 14px;
+        }
+        #hide {
+            font-size: 14px;
+            background-color: #d9d9d9;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5.5%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 22.8%;
+        }
+        /* Styling for right side provider detail */
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 14px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 32%;
+            opacity: .2;
+            font-size: 20px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        #pr-copyright {
+            font-size: 14px;
+        }
+        #searchWrap {
+            width: 99%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 165px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 57px;
+            width: 60px;
+            height: 60px;
+        }
+        .dropdown-content {
+            position: absolute;
+            left: 32%;
+        }
+        #notification-date {
+            left: 83%;
+        }
+        .notification-user {
+            left: 12%;
+        }
+        .notification-message {
+            left: 12%;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 30%;
+        }
+        .pg1 {
+            min-width: 100%;
+            height: 70px;
+            margin-right: -3px;
+        }
+        #fmp-button img {
+            width: 140px;
+            height: 50px;
+        }
+        .pg2 {
+            min-width: 100%;
+            height: 70px;
+            margin-left: -3px;
+        }
+        .pg3 {
+            min-width: 100%;
+            height: 70px;
+            margin-left: -3px;
+        }
+        .ccode {
+            width: 220px;
+        }
+        .iconsignup {
+            padding-left: 110px;
+        }
+        #checkbox_id {
+            margin-left: 112px;
+        }
+        #signupbtn {
+            margin-left: 125px;
+        }
+        #loginbtn {
+            margin-left: 120px;
+        }
+        .signupstatus {
+            margin-left: 155px;
+        }
+        .loginstatus {
+            margin-left: 150px;
+        }
+        .loginenvelope,
+        .loginkey {
+            padding-left: 95px;
+            box-sizing: border-box;
+        }
+        #loginform a {
+            margin-left: 160px;
+        }
+        #facebookicon {
+          margin-left: 160px;
+        }
+    }
+
+    @media screen and (min-width: 1300px) {
+        div#profile_page_pic_box>#profileimage {
+            position: absolute;
+            left: 60%;
+            bottom: 10%;
+            height: 20px;
+            width: 20px;
+        }
+        #ProfileName {
+            top: 8%;
+            left: 9%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 9%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 12.5%;
+            display: inline;
+        }
+        div#followCnt {
+            position: relative;
+            min-height: 60px;
+            margin-top: 10px;
+        }
+        #followerscnt {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            font-size: 14px;
+        }
+        #followingcnt {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            font-size: 14px;
+        }
+        .followerspan {
+            left: 20%;
+        }
+        .followingspan {
+            left: 72%;
+        }
+        #followBtn {
+            position: absolute;
+            top: 66%;
+            left: 32%;
+            font-size: 14px;
+        }
+        #followingcnt:hover,
+        #followerscnt:hover {
+            text-decoration: underline;
+        }
+        #userProfile .MobileIcon {
+            font-size: 14px;
+        }
+        .subscribe {
+            font-size: 14px;
+        }
+        .Website {
+            font-size: 14px;
+        }
+        #hide {
+            font-size: 14px;
+            background-color: #d9d9d9;
+        }
+        #ProfileName {
+            position: absolute;
+            left: 10%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            left: 10%;
+        }
+        .posted {
+            position: absolute;
+            left: 14%;
+        }
+        #parentContainer img[src*="chat"] {
+            position: absolute;
+            left: 90%;
+        }
+        .comment {
+            position: absolute;
+            left: 95%;
+        }
+        #comments {
+            width: 92%;
+        }
+        /* Styling for Like/Unlike button */
+        span[id*="likecnt"] {
+            position: absolute;
+            left: 5%;
+        }
+        span[id*="unlikecnt"] {
+            position: absolute;
+            left: 22.3%;
+        }
+        /* Styling for right side provider detail */
+        div#eachprovider img[src*="user"] {
+            width: 50px;
+            height: 50px;
+            top: 22%;
+        }
+        #providerName {
+            position: absolute;
+            left: 28%;
+            font-size: 14px;
+        }
+        #content-type {
+            position: absolute;
+            top: 33%;
+            left: 32%;
+            opacity: .2;
+            font-size: 20px;
+        }
+        .providerclass {
+            position: absolute;
+            bottom: 5%;
+            left: 30%;
+            font-size: 14px;
+        }
+        #refresh {
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        #pr-copyright {
+            font-size: 14px;
+        }
+        #searchWrap {
+            width: 99%;
+        }
+        #profile_page_pic_box>a {
+            display: none;
+            position: absolute;
+            margin: 0px 0px 0px 169px;
+            background: #cce6ff;
+            border: #81A332 1px solid;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        #profile_page_pic_box>form {
+            display: none;
+            position: absolute;
+            z-index: 3000;
+            padding: 8px;
+            opacity: .8;
+            background: #cce6ff;
+            border-radius: 50%;
+            margin: 5px 280px 0px 59px;
+            width: 60px;
+            height: 60px;
+        }
+        .dropdown-content {
+            position: absolute;
+            left: 33%;
+        }
+        #notification-date {
+            left: 83%;
+        }
+        .notification-user {
+            left: 12%;
+        }
+        .notification-message {
+            left: 14%;
+        }
+        #passsubmit {
+            position: absolute;
+            left: 30%;
+        }
+        .ccode {
+            width: 225px;
+        }
+        .loginstatus {
+            margin-left: 160px;
+        }
+        #loginform a {
+            margin-left: 165px;
+        }
+    }
+
+    @media screen and (min-width: 1360px) {
+        .ccode {
+            width: 235px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+      #facebookicon {
+        margin-left: 170px;
+      }
+      .forgotpasswd,
+      .darkdiv {
+        max-width: 500px;
+      }
+    }
+
+    @media screen and (min-width: 1920px) {
+        #ProfileName {
+            top: 10%;
+            left: 6%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 6%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 9%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 92%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 95%;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 18px;
+        }
+        .forgotpasswd {
+          margin-left: 60px;
+        }
+        .darkdiv {
+          margin-left: 60px;
+        }
+        #facebookicon {
+          margin-left: 250px;
+        }
+    }
+    @media screen and (min-width: 1920px) {
+      .forgotpasswd {
+        margin-left: 60px;
+        max-width: 500px;
+      }
+      .darkdiv {
+        margin-left: 60px;
+        max-width: 500px;
+      }
+      #facebookicon {
+        margin-left: 170px;
+      }
+    }
+    @media screen and (min-width: 3840px) {
+      .forgotpasswd {
+        margin-left: 250px;
+        max-width: 500px;
+      }
+      .darkdiv {
+        margin-left: 250px;
+        max-width: 500px;
+      }
+    }

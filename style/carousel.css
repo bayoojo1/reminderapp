@@ -1,0 +1,129 @@
+#carousel {
+    position: relative;
+    width: 630px;
+    margin: 0 auto;
+    float: right;
+}
+
+#slides {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+#slides ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#slides li {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    position: relative;
+    font-family: lato, sans-serif;
+}
+
+.slide {
+    width: 99%;
+}
+
+
+/*
+.list {
+    list-style: disc outside none;
+    display: list-item;
+}*/
+
+.ccode {
+    width: 230px;
+}
+
+
+/* Styling for prev and next buttons */
+
+.btn-bar {
+    max-width: 346px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+#buttons {
+    padding: 0 0 5px 0;
+    float: right;
+    visibility: hidden;
+}
+
+#buttons a {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    float: left;
+    outline: 0;
+    margin: 0 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    width: 30px;
+}
+
+
+/*
+a#prev:hover,
+a#next:hover {
+    color: #FFF;
+    text-shadow: .5px 0px #b14943;
+}*/
+
+.quote-phrase {
+    height: auto;
+    width: 100%;
+    font-size: 24px;
+    color: #FFF;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: .5px 0px #b14943;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.quote-phrase p {
+    margin: 0.6em;
+}
+
+.welcome-naatcast {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 0px grey;
+    text-decoration: underline;
+}
+
+.solicited {
+    margin-left: -120px;
+    margin-top: -2px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.heading {
+    height: 20px;
+    font-size: 45px;
+    color: #FFF;
+    text-shadow: 2px 0px grey;
+    text-decoration: underline;
+}

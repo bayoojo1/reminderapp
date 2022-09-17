@@ -1,0 +1,8 @@
+Options +FollowSymLinks -MultiViews
+#RewriteEngine On
+#RewriteRule ^(.+)/(functions|php_includes|js|images|php_parsers|sample|style|uploads|user|jssocials-1.4.0)/(.*)$ $2/$3 [L]
+RewriteRule ^(.*)$ login.php [NC,L]
+
+
+
+# Other rewrite rules

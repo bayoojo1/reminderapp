@@ -1,0 +1,431 @@
+    @media screen and (min-width: 320px) {
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 18%;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 18%;
+        }
+        #followCnt {
+            text-align: center;
+        }
+        .posted,
+        .recurrent,
+        .comment {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 360px) {
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+        }
+    }
+    
+    @media screen and (min-width: 480px) {
+        #profile_pic_box img {
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #profileName {
+            text-align: center;
+        }
+        #PageRight {
+            text-align: center;
+        }
+        #ProfileName {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 14%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 20%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+        }
+        .recurrent {
+            position: absolute;
+            bottom: 3%;
+            left: 55%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 90%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 95%;
+            display: inline;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 10px;
+        }
+    }
+    
+    @media screen and (min-width: 540px) {
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 92%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 96%;
+            display: inline;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        #wrapper {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        #profile_pic_box img {
+            max-width: 50%;
+            height: 100px;
+            margin-top: 15px;
+            margin-right: 1.5%;
+            margin-left: 1.5%;
+            display: inline-block;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #PageLeft {
+            float: left;
+            width: 20%;
+            height: 100%;
+            margin-right: 1.5%;
+            margin-left: 1.5%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        #PageMiddle {
+            width: 50%;
+            height: 100%;
+            /*margin-right: 2%;*/
+            margin-left: 2%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        #PageMiddle>#pageMiddleForm {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        #pageMiddleForm>#audio_upload {
+            width: 100%;
+        }
+        #hide {
+            width: 100%;
+        }
+        #hide>div {
+            margin: auto;
+        }
+        #mobile {
+            width: 100%;
+        }
+        #message {
+            width: 100%;
+        }
+        #PageRight {
+            float: right;
+            width: 20%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            height: 100%;
+            text-align: center;
+        }
+        #pr-ads {
+            text-align: center;
+        }
+        #pr-copyright {
+            text-align: center;
+            color: white;
+        }
+        table {
+            margin: 0 auto;
+        }
+        #parentContainer img[src*="posted-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 14%;
+        }
+        .posted {
+            position: absolute;
+            bottom: 3%;
+            left: 20%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+        }
+        .recurrent {
+            position: absolute;
+            bottom: 3%;
+            left: 55%;
+            display: inline;
+        }
+        #parentContainer img[src*="chat"] {
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 88%;
+            cursor: pointer;
+        }
+        .comment {
+            position: absolute;
+            bottom: 3%;
+            left: 94%;
+            display: inline;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 10px;
+        }
+        /* styling for the billing page */
+        #p-100 {
+            float: left;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        #p-500 {
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            display: inline-block;
+        }
+        #p-1000 {
+            float: right;
+            width: 30.333%;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    }
+    
+    @media screen and (min-width: 800px) {
+        #profile_pic_box img {
+            height: 140px;
+            margin-top: 15px;
+            border-radius: 50%;
+            border: solid 1px white;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 14%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 20%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            bottom: 0;
+            left: 50%;
+        }
+        .recurrent {
+            bottom: 3%;
+            left: 55%;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 88%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 94%;
+        }
+    }
+    
+    @media screen and (min-width: 960px) {
+        #ProfileName {
+            top: 10%;
+            left: 11%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 11%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 16%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            bottom: 0;
+            left: 45%;
+        }
+        .recurrent {
+            bottom: 3%;
+            left: 50%;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 90%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 95%;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 12px;
+        }
+    }
+    
+    @media screen and (min-width: 1280px) {
+        #ProfileName {
+            top: 10%;
+            left: 9%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 9%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 13%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            bottom: 0;
+            left: 45%;
+        }
+        .recurrent {
+            bottom: 3%;
+            left: 49%;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 92%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 96%;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (min-width: 1920px) {
+        #ProfileName {
+            top: 10%;
+            left: 6%;
+        }
+        #parentContainer img[src*="posted-white"] {
+            bottom: 0;
+            left: 6%;
+        }
+        .posted {
+            bottom: 3%;
+            left: 9%;
+            display: inline;
+        }
+        #parentContainer img[src*="recurrent-white"] {
+            bottom: 0;
+            left: 45%;
+        }
+        .recurrent {
+            bottom: 3%;
+            left: 48%;
+        }
+        #parentContainer img[src*="chat"] {
+            bottom: 0;
+            left: 92%;
+            cursor: pointer;
+        }
+        .comment {
+            bottom: 3%;
+            left: 95%;
+        }
+        #followCnt {
+            text-align: auto;
+            font-size: 18px;
+        }
+    }

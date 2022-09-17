@@ -1,0 +1,1514 @@
+/*This is the style for all pages body background */
+
+body,
+html {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.insidepage {
+    box-sizing: content-box;
+    background: url(../images/banners/bkgsponge.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+
+/* This is the style for both signup and login page body background */
+
+.loginpage {
+    background: url(../images/banners/bkgsponge.jpg) no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+}
+
+.extlogin:hover {
+    text-decoration: underline;
+}
+
+.extsignup:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    margin: 0 15px;
+}
+
+#PageTop {
+    background: black;
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 9999;
+    text-rendering: optimizeLegibility;
+}
+
+img[src*="logo"] {
+    float: left;
+    height: 60px;
+    width: 70px;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+#PageTop>#menu1 {
+    height: 45px;
+    padding: 0.2127%;
+}
+
+#PageTop>#menu1>a,
+#notify {
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+
+#PageTop>#menu1>.extlogin {
+  margin-top: 10px;
+}
+
+#PageTop>#menu1>.extsignup {
+  margin-top: 10px;
+}
+
+#logoutid:hover,
+#note_still:hover,
+#settingsid:hover,
+#friendid:hover,
+#homeid:hover {
+    background: #ccc;
+}
+
+#header {
+    margin: 0 0 20px 0;
+    padding-bottom: 20px;
+}
+
+#signupform>div {
+    margin-top: 12px;
+}
+
+#signupform>input,
+select {
+    width: 50%;
+    padding: 3px;
+    background: #F3F9DD;
+}
+
+#signupbtn {
+    font-size: 18px;
+    padding: 12px;
+    margin-left: 135px;
+}
+
+#terms {
+    border: #CCC 1px solid;
+    background: #F5F5F5;
+    padding: 12px;
+}
+
+.loginIcon {
+    padding: 11px;
+    background: #004080;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+
+/*
+#loginformMiddle {
+    background: rgba(0, 25.1, 50.2, 0.9);
+    border: 5px solid rgba(0, 25.1, 50.2, 1);
+    border-radius: 10px;
+}*/
+
+#loginformMiddle {
+    /*background: rgba(128, 0, 64, 1);
+    border-radius: 10px;*/
+    margin-left: 5px;
+    /*border: 2px solid white;*/
+}
+
+.pageMiddleForm {
+    /*background: rgba(97, 177, 255, 0.6);
+    border-radius: 10px;*/
+    margin-left: 50px;
+    /*height: 600px;*/
+}
+
+#loginform {
+    margin-top: 24px;
+}
+
+#loginform a {
+    margin-left: 175px;
+}
+
+#loginform a:hover {
+    text-decoration: underline;
+}
+
+#signupform a:hover {
+    text-decoration: underline;
+}
+/*
+#loginform>div {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+*/
+.forgotpasswd {
+  /*border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;*/
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#signupform>div {
+    margin-top: 12px;
+    /*margin-left: 12px;*/
+}
+
+.loginenvelope,
+.loginkey {
+    padding-left: 110px;
+    box-sizing: border-box;
+}
+
+.iconsignup {
+    padding-left: 110px;
+    box-sizing: border-box;
+}
+
+#loginform .loginenvelope>input {
+    width: 50%;
+    padding: 8px;
+    background: #F3F9DD;
+    outline: none;
+    margin-left: -5px;
+}
+
+#loginform .loginkey>input {
+    width: 50%;
+    padding: 8px;
+    background: #F3F9DD;
+    outline: none;
+    margin-left: -5px;
+}
+
+#signupform .iconsignup>input {
+    width: 50%;
+    padding: 8px;
+    background: #F3F9DD;
+    outline: none;
+    margin-left: -5px;
+}
+
+#loginform .loginenvelope>input:focus {
+    border: 2px solid #004080;
+}
+
+#loginform .loginkey>input:focus {
+    border: 2px solid #004080;
+}
+
+#signupform .iconsignup>input:focus {
+    border: 2px solid #004080;
+}
+
+.login {
+  width: 70px;
+  height: 20px;
+}
+
+.signup {
+  width: 100px;
+  height: 20px;
+}
+
+.login,
+.signup {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #0066ff;
+  border-radius: 10px;
+}
+
+.login:hover,
+.signup:hover {
+  background-color: #0066ff;
+  color: black;
+  font-weight: bold;
+}
+
+#signupbtn,
+#loginbtn {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 135px;
+    width: 50%;
+    opacity: 0.8;
+}
+
+.signupstatus,
+.loginstatus {
+    margin-left: 135px;
+    color: white;
+}
+
+#loginbtn:hover {
+    /*opacity: 1;*/
+    background-color: #004080;
+}
+
+#signupbtn:hover {
+    background-color: #004080;
+}
+
+#checkbox_id {
+    margin-left: 135px;
+}
+
+#forgotMiddle {
+  margin-left: 15px;
+}
+
+#forgotpassform {
+    margin-top: 24px;
+}
+
+#forgotpassform>div {
+    margin-top: 12px;
+}
+
+#forgotpassform>input {
+    width: 250px;
+    padding: 3px;
+    background: #F3F9DD;
+}
+
+#forgotpassbtn {
+    font-size: 15px;
+    padding: 10px;
+}
+
+#facebookicon {
+  margin-left: 70px;
+}
+
+#twittericon,
+#linkedinicon,
+#youtubeicon {
+  margin-left:10px;
+}
+
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-size: 15px;
+    color: gray;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 15px;
+    color: gray;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 15px;
+    color: gray;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 15px;
+    color: gray;
+}
+
+#searchWrap,
+#searchuserWrap {
+    position: relative;
+}
+
+#searchquery,
+#searchprovider,
+#searchusers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 5px;
+    outline: none;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-bottom: 5px;
+}
+
+#profile_pic_box img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: block;
+    height: auto;
+}
+
+
+/* Styling for provider profile picture emblem starts here */
+
+#profile_pic_box,
+#pix-sticky-wrapper {
+    position: relative;
+    z-index: 9000;
+}
+
+#profileimage {
+    position: absolute;
+    left: 60%;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* Ends here */
+
+
+/* This is the styles for the profile page picture upload --- Start Here. */
+
+#profile_page_pic_box>img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 140px;
+    /*border-radius: 50%;*/
+    border: solid 1px white;
+}
+
+#profile_page_pic_box>a {
+    display: none;
+    position: absolute;
+    margin: 40px 0px 0px 120px;
+    background: #D8F08E;
+    border: #81A332 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #60750B;
+}
+
+#profile_page_pic_box>form {
+    display: none;
+    position: absolute;
+    z-index: 3000;
+    padding: 8px;
+    opacity: .8;
+    background: #F0FEC2;
+    border-radius: 50%;
+    margin: 0px 280px 0px 120px;
+    width: 80px;
+    height: 80px;
+}
+
+#profile_page_pic_box:hover a {
+    display: block;
+}
+
+
+/* Ends Here. */
+
+#profileName {
+    text-align: center;
+    margin-top: -18px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#homeFeed>#parentContainer {
+    height: 52px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#PageMiddle>#parentContainer {
+    height: 52px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.whoto {
+    font-size: 20px;
+}
+
+#parentContainer {
+    position: relative;
+}
+
+.playimg,
+.pauseimg,
+.deleteimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    opacity: .3;
+}
+
+#delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.playimg:hover,
+.pauseimg:hover,
+.deleteimg:hover {
+    background-color: lightsteelblue;
+    opacity: 1;
+}
+
+#homeFeed1>#parentContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#hide {
+    border: antiquewhite;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 10px 0px gray;
+    text-align: center;
+    color: cadetblue;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+#parentContainer>a {
+    text-decoration: none;
+}
+
+div#PageMiddle>#parentContainer img[src*="user"],
+div#homeFeed>#parentContainer img[src*="user"] {
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#homeFeed1>#parentContainer img[src*="user"] {
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#ProfileName {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+textarea {
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    overflow: auto;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
+/* Style For HomePage Textarea Placeholder alignment */
+
+#message::-webkit-input-placeholder {
+    padding-top: 25px;
+}
+
+#message:-moz-placeholder {
+    line-height: 80px;
+}
+
+#message:-ms-input-placeholder {
+    padding-top: 25px;
+}
+
+
+/* Ends Here*/
+
+
+/* Style for HomePage Mobile Number entry Placeholder alignment */
+
+#mobile::-webkit-input-placeholder {
+    padding-top: 8px;
+}
+
+#mobile:-moz-placeholder {
+    line-height: 50px;
+}
+
+#mobile:-ms-input-placeholder {
+    padding-top: 8px;
+}
+
+
+/* Ends Here*/
+
+
+/* Style for HomePage Subscription Audio Description entry Placeholder alignment */
+
+#sub_description::-webkit-input-placeholder {
+    padding-top: 8px;
+}
+
+#sub_description::-moz-placeholder {
+    line-height: 50px;
+}
+
+#sub_description:-moz-placeholder {
+    line-height: 50px;
+}
+
+#sub_description:-ms-input-placeholder {
+    padding-top: 8px;
+}
+
+
+/* Ends Here*/
+
+#pageMiddleForm>#audio_upload {
+    width: 100%;
+}
+
+#userProfile .MobileIcon {
+    background-image: url(../images/phone-green.png);
+    display: block;
+    background-repeat: no-repeat;
+    padding: 0 0 5px 1px;
+    background-size: 20px 20px;
+    box-sizing: border-box;
+}
+
+
+/* Stying for My Subscription icon */
+
+.subscribe {
+    position: relative;
+}
+
+#prosubicon,
+#subicon {
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    color: #3f8000;
+    /*color: rgba(173, 171, 171, 0.925); */
+}
+
+
+/* Ends Here */
+
+a:link {
+    color: #0066ff;
+    outline: none;
+}
+
+a:visited {
+    color: #0066ff;
+    outline: none;
+}
+
+a:hover {
+    color: #0066ff;
+    outline: none;
+}
+
+a:active {
+    color: #0066ff;
+    outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+/*
+a[href*="facebook"] {
+  color: #fff;
+}
+
+a[href*="twitter"] {
+  color: #fff;
+}
+
+div.socialdiv {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.socialwrap {
+  padding-top: -10px;
+} */
+
+#parentContainer img[src*="posted-white"] {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.posted {
+    position: absolute;
+    bottom: 3%;
+    left: 17%;
+    display: none;
+}
+
+.content_type {
+    position: absolute;
+    bottom: 3%;
+    left: 53%;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#parentContainer img[src*="chat"] {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 92%;
+}
+
+.comment {
+    position: absolute;
+    bottom: 3%;
+    left: 78%;
+    display: none;
+}
+
+#childdiv1 {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    /*border-bottom: 1px solid #cce6ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+#followerList,
+#subscriptionList {
+    background-color: #0066ff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#followerList button,
+#subscriptionList button {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+#followUsernameBtn {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+
+#fuserName {
+    font-weight: 800;
+}
+
+
+/* Style for deleting providers registration request */
+
+.remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Ends Here */
+
+
+/* This is the style for the follow page links */
+
+#nav-follow {
+    margin: 5px 0 0;
+    padding: 1px 0;
+    background-color: lightgray;
+}
+
+#nav-follow ul {
+    list-style: none;
+    text-align: center;
+}
+
+#nav-follow li {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+#nav-follow a {
+    font-weight: 800;
+    padding: 14px 16px;
+}
+
+#nav-follow a,
+#nav-follow a:visited {
+    color: #fff;
+}
+
+#nav-follow a.selected {
+    background-color: #0bb5ff;
+}
+
+#nav-follow a:hover {
+    background-color: lightsteelblue;
+}
+
+
+/* It ends */
+
+#PageMiddle>#followerList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#PageMiddle>#subscriptionList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#PageMiddle>#providerPage>#subscriptionList>.image img[src*="user"] {
+    border: #999 1px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+div#lowerbtm .fa-chart-pie {
+    display: inline;
+    margin-right: 20px;
+}
+
+#followerList a,
+#subscriptionList a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    border-width: 1;
+}
+
+.tprofile {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.trow:hover {
+    background-color: #f5f5f5
+}
+
+.trow {
+    border-bottom: 1px solid #ddd;
+}
+
+.trow:last-child {
+    border-bottom: none;
+}
+
+input[type=button] {
+    background-color: lightsteelblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: #66b3ff;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #004080;
+}
+
+input[type=button]:hover {
+    background-color: gray;
+}
+
+input[type=button]:disabled {
+    background-color: gray;
+}
+
+button {
+    background-color: #0066ff;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+button:hover {
+    font-size: 14px;
+}
+
+
+/* Style for the profile page change password - Start Here */
+
+#PageMiddle>#changepassword {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#pform {
+    position: relative;
+}
+
+#current {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#newpwd {
+    position: absolute;
+    top: 0.5;
+    right: 0;
+}
+
+#enternew,
+#enterconfirm {
+    display: inline-block;
+}
+
+#confirmpwd {
+    position: absolute;
+    top: 1.5;
+    right: 0;
+}
+
+#passsubmit {
+    position: absolute;
+    bottom: 0;
+    right: 65%;
+}
+
+
+/* Ends Here*/
+
+
+/* This is the styles for CDR page Datepicker */
+
+#date-picker,
+#cdr-search {
+    display: inline-block;
+}
+
+.ui-datepicker {
+    background: #ccc;
+}
+
+div.ui-datepicker {
+    font-size: 16px;
+}
+
+.ui-datepicker th {
+    color: #3e3e3e;
+}
+
+.ui-datepicker th.ui-datepicker-week-end {
+    color: crimson;
+}
+
+.ui-datepicker-today {
+    background: crimson !important;
+}
+
+.ui-datepicker-current-day {
+    background: #999 !important;
+}
+
+#call-search {
+    position: relative;
+}
+
+#filter {
+    position: absolute;
+    right: 0;
+}
+
+#call_status {
+    position: absolute;
+    right: 20%;
+}
+
+#to_date {
+    position: absolute;
+    right: 60%;
+}
+
+
+/* CDR date picker styling ends here */
+
+
+/* Pagination Control styling Starts Here */
+
+#paginationctrls {
+    font-weight: 800;
+    font-size: 1.2em;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+#paginationctrls a {
+    color: white;
+}
+
+
+/* Pagination Control styling Ends Here */
+
+audio {
+    width: 100%;
+    margin-top: 1px;
+}
+
+
+/* Styling for provider search page starts here */
+
+#cont_type {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    font-size: 30px;
+    color: white;
+    opacity: .3;
+}
+
+#parentContainer>#content_type {
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    opacity: .3;
+    width: 50px;
+}
+
+
+/* Ends here */
+
+
+/* Styling for Like/Unlike button */
+
+#lowerbtm {
+    position: relative;
+}
+
+span[id*="likecnt"] {
+    position: absolute;
+    left: 5%;
+}
+
+i[id*="likebtn"] {
+    position: absolute;
+    left: 0%;
+}
+
+i[id*="unlikebtn"] {
+    position: absolute;
+    left: 15%;
+}
+
+span[id*="unlikecnt"] {
+    position: absolute;
+    left: 20%;
+}
+
+
+/* Ends here */
+
+
+/* Styling for notification drop-down */
+
+#notify {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.notecontainer {
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    width: 320px;
+    right: 20%;
+}
+
+.notedisplay {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+
+#spanBase {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    width: 300px;
+}
+
+#notepage {
+    position: relative;
+    background-color: #b3b3b3;
+}
+
+div.notepage img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+div#notedisplay>#notepage img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+.notification-user {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#notification-date {
+    position: absolute;
+    top: 0;
+    left: 73%;
+}
+
+.notification-message {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+#note_still {
+    margin-top: 3px;
+}
+
+
+/* Ends Here */
+
+
+/* Styling for pageRight provider display */
+
+#big-ads {
+    box-sizing: border-box;
+}
+
+#eachprovider {
+    position: relative;
+    height: 80px;
+}
+
+div#eachprovider img[src*="user"] {
+    border: white 3px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0
+}
+
+#providerName {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-weight: 800;
+}
+
+#content-type {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    opacity: .2;
+    font-size: 20px;
+}
+
+#nofsub {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    opacity: .5;
+}
+
+#nofbroadcast {
+    position: absolute;
+    top: 0;
+    right: 25%;
+    opacity: .5;
+}
+
+.providerclass {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#refresh {
+    box-sizing: border-box;
+}
+
+.viewall:hover,
+.refresh:hover {
+    text-decoration: underline;
+}
+
+
+/* Ends Here */
+
+.Website:hover {
+    text-decoration: underline;
+}
+
+.subscribe:hover {
+    text-decoration: underline;
+}
+
+
+/* Styling for following/followers display */
+
+div#followCnt {
+    position: relative;
+    min-height: 60px;
+}
+
+#followerscnt {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+#followingcnt {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.followerspan {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: gray;
+}
+
+.followingspan {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    color: gray;
+}
+
+#followBtn {
+    position: absolute;
+    top: 60%;
+    right: 35%;
+}
+
+.subscription {
+    font-weight: 600;
+}
+
+
+/* Styles for drop down on home page */
+
+#subscribers {
+    width: 140px;
+    float: right;
+}
+
+#followers {
+    width: 140px;
+    float: right;
+}
+
+#recurrent {
+    width: 140px;
+    float: right;
+}
+
+#shared {
+    width: 140px;
+    float: right;
+}
+
+#thisdate {
+    width: 110px;
+}
+
+#followingcnt:hover,
+#followerscnt:hover {
+    text-decoration: underline;
+}
+
+
+/* Ends Here */
+
+#comment-img {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #999 1px solid;
+}
+
+.commentDisplay {
+    height: 60px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    background-color: #CCE6E6;
+    position: relative;
+}
+
+#commentersid {
+    position: absolute;
+    border: #999 1px solid;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+
+#commentName {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    color: #004080;
+    font-weight: bold;
+    height: 30px;
+}
+
+#commentDate {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 10px;
+    /*color: #0066ff; */
+    color: gray;
+    height: 30px;
+    font-weight: bold;
+}
+
+#commentWords {
+    height: auto;
+    width: 100%;
+    margin-top: -4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: #CCE6E6;
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+#deleteCmt {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border-radius: 50%;
+}
+
+.load-notifications,
+.load-feed,
+.load-comment,
+.load-comment2 {
+    background-color: #0bb5ff;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.load-notifications:hover,
+.load-feed:hover,
+.load-comment:hover,
+.load-comment2:hover {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#comments {
+    width: 80%;
+}
+
+#current,
+#newpwd,
+#confirmpwd {
+    width: 50%;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #004080;
+  z-index: 99999;
+  height:220px;
+  width:450px;
+  opacity: .9;
+  border-radius: 2%;
+  border: 4px solid grey;
+  display: none;
+}
+
+.closepop {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.closepop:hover,
+.closepop:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.baudio {
+  position: absolute;
+  right: 30%;
+  top: 0;
+  font-weight: bold;
+}
+
+.mobilepop {
+  position: absolute;
+  left: 4%;
+  width: 30em;"
+}
+
+#btnCast {
+  position: absolute;
+  left: 40%;
+}
+
+#btnCast:hover {
+  font-size: 16px;
+}
+
+.deleteapi {
+  color: white;
+}
+.deleteapi:hover {
+  color: #004080;
+}
+
+#apicontainer {
+  background: white;
+  box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nameapi {
+  color: slategrey;
+  font-family: sans-serif;
+}
+
+.v1 {
+  border-left: 1px solid black;
+  height: 0.00001px;
+}
+
+.ContactUs,
+.termsandCond {
+  font-size: 0.8em;
+}
+.ContactUs:hover,
+.termsandCond:hover {
+  text-decoration: underline;
+}

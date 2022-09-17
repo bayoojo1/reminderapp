@@ -1,0 +1,80 @@
+@media screen and (min-width: 480px) {
+
+  /***********************************
+  TWO COLUMN LAYOUT: CONTACT PAGE
+  ************************************/
+  /*(This will make the content of the contact
+  page to be 2 column on any device with screen more than or equal to 480px)*/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  /***********************************
+  PAGE: PORTFOLIO
+  ************************************/
+  /*The gallery image will take 3 column. With margin of 2.5% left and right
+  for each image, 3 images on a row will take up 5x3 = 15% margin. The remaining
+  85% space left is divided into 3, giving us 28.3333% space for each image in
+  the gallery.*/
+
+  #gallery li {
+    width: 28.3333%
+  }
+  /*This controls the float behavior of the 4th image in the gallery*/
+  #gallery li:nth-child(4n) {
+    clear:left;
+  }
+
+  /***********************************
+  PAGE: ABOUT
+  ************************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+
+}
+
+@media screen and (min-width: 680px) {
+
+  /***********************************
+  HEADER
+  ************************************/
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-left: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #e769ff;
+    margin-bottom: 60px;
+  }
+}
